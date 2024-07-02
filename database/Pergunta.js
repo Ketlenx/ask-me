@@ -13,3 +13,7 @@ const Pergunta = connection.define('pergunta', {
         .catch((error) =>{
             console.log(error)
         })
+
+
+
+        module.exports = Pergunta;
