@@ -6,7 +6,7 @@ const connection = new Sequelize({
     database: 'askme',
     user: 'administrador',
     password: '123456',
-    host: '172.16.96.144',
+    host: '172.16.96.50',
     port: 3306,
     showWarnings: true,
     connectTimeout: 1000,
