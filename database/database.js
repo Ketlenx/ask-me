@@ -1,6 +1,6 @@
 require('dotenv').config()
 const { Sequelize } = require('@sequelize/core')
-const { PostgressDialect } = require('@sequelize/mariadb')
+const { PostgressDialect } = require('@sequelize/postgres')
 
 const connection = new Sequelize({
     dialect: PostgressDialect,
